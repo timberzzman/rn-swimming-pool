@@ -24,7 +24,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <TextInput style={styles.textInput} onChangeText={text => setText(text)} defaultValue={text}/>
+        <TextInput style={styles.textInput} placeholder="Enter a destination" onChangeText={text => setText(text)} defaultValue={text}/>
         <Text style={styles.button} onPress={() => addWord()}>Add</Text>
       </View>
       <ScrollView style={styles.wordsList}>
