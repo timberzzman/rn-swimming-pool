@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import React, {useState} from 'react';
 import MapView, { Marker } from 'react-native-maps';
 import { StyleSheet, View, Dimensions } from 'react-native';
-import {TouchableWithoutFeedback} from "react-native-web";
 
 export default function App() {
   const [markers, setMarkers] = useState([]);
